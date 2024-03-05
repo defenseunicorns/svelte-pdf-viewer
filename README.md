@@ -1,4 +1,4 @@
-# svelte-pdf-viewer-viewer
+# svelte-pdf-viewer
 
 Simple svelte PDF Viewer component with controls like
 
@@ -11,7 +11,7 @@ Simple svelte PDF Viewer component with controls like
 ## How to install
 
 ```
-npm install @defense-unicorns/svelte-pdf-viewer-viewer
+npm install @defense-unicorns/svelte-pdf-viewer
 ```
 
 ## How to use
@@ -20,7 +20,7 @@ npm install @defense-unicorns/svelte-pdf-viewer-viewer
 
 ```js
 <script>
- import PdfViewer from '@defense-unicorns/svelte-pdf-viewer-viewer';
+ import PdfViewer from '@defense-unicorns/svelte-pdf-viewer';
 </script>
 
 <PdfViewer url='./sample.pdf' />
@@ -31,7 +31,7 @@ npm install @defense-unicorns/svelte-pdf-viewer-viewer
 
 ```js
 <script>
- import PdfViewer from '@defense-unicorns/svelte-pdf-viewer-viewer';
+ import PdfViewer from '@defense-unicorns/svelte-pdf-viewer';
 </script>
 
 <PdfViewer url='https://raw.githubusercontent.com/vinodnimbalkar/svelte-pdf-viewer/369db2f9edbf5ab8c87184193e1404340729bb3a/public/sample.pdf' />
@@ -67,10 +67,10 @@ npm install @defense-unicorns/svelte-pdf-viewer-viewer
 
 ## Examples
 
-To view the examples, clone the **@defense-unicorns/svelte-pdf-viewer-viewer** repo and install the dependencies:
+To view the examples, clone the **@defense-unicorns/svelte-pdf-viewer** repo and install the dependencies:
 
 ```bash
-git clone git@github.com:defenseunicorns/svelte-pdf-viewer-viewer.git
+git clone git@github.com:defenseunicorns/svelte-pdf-viewer.git
 cd example
 npm install
 npm run dev
@@ -88,10 +88,10 @@ Then run the **http://localhost:5000**:
 
       -- [Rich Harris](https://github.com/Rich-Harris/svelte-workshop#using-external-components)
 
-We have to install `@defense-unicorns/svelte-pdf-viewer-viewer` as part of `devDependencies`
+We have to install `@defense-unicorns/svelte-pdf-viewer` as part of `devDependencies`
 
 ```bash
-npm install -D @defense-unicorns/svelte-pdf-viewer-viewer
+npm install -D @defense-unicorns/svelte-pdf-viewer
 ```
 
 ...this will cause it to get bundled (and therefore compiled) with your app.
@@ -109,7 +109,7 @@ Since out `PdfViewer` component has a dependency on `window` object, we have to 
   let PdfViewer;
 
   onMount(async () => {
-    const module = await import("@defense-unicorns/svelte-pdf-viewer-viewer");
+    const module = await import("@defense-unicorns/svelte-pdf-viewer");
     PdfViewer = module.default;
   });
 </script>
