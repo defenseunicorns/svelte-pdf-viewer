@@ -1,5 +1,5 @@
 <script>
-  import PdfViewer from '@defenseunicorns/svelte-pdf-viewer'
+  import PdfViewer from '@defense-unicorns/svelte-pdf-viewer'
 </script>
 
 <PdfViewer url="./sample.pdf" />
