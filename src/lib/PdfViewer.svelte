@@ -429,7 +429,7 @@
     font-family: 'montserrat';
     src:
       url('./fonts/Montserrat-VariableFont_wght.ttf') format('ttf'),
-      url('.//fonts/Montserrat-Italic-VariableFont_wght.ttf') format('ttf');
+      url('./fonts/Montserrat-Italic-VariableFont_wght.ttf') format('ttf');
     font-display: swap;
     font-weight: normal;
     font-style: normal;
