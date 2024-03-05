@@ -4,7 +4,7 @@
   "description": "svelte-pdf-viewer provides a component for rendering PDF documents using PDF.js",
   "keywords": [
     "pdf",
-    "svelte-pdf",
+    "svelte-pdf-viewer",
     "pdfjs",
     "pdf-print",
     "pdf-zoom",

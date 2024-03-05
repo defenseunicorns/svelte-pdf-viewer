@@ -22,6 +22,6 @@ jobs:
         uses: google-github-actions/release-please-action@v3
         with:
           release-type: node
-          package-name: svelte-pdf
+          package-name: defense-unicorns/svelte-pdf-viewer
           versioning-strategy: always-bump-patch
           changelog-path: CHANGELOG.md
