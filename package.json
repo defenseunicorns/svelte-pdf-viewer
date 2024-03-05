@@ -1,7 +1,7 @@
 {
-  "name": "@defenseunicorns/svelte-pdf",
-  "version": "1.0.4",
-  "description": "svelte-pdf provides a component for rendering PDF documents using PDF.js",
+  "name": "@defenseunicorns/svelte-pdf-viewer",
+  "version": "1.0.0",
+  "description": "svelte-pdf-viewer provides a component for rendering PDF documents using PDF.js",
   "keywords": [
     "pdf",
     "svelte-pdf",
@@ -11,13 +11,13 @@
     "pdf-rotation",
     "pdf-navigation"
   ],
-  "homepage": "https://github.com/defenseunicorns/svelte-pdf#readme",
+  "homepage": "https://github.com/defenseunicorns/svelte-pdf-viewer#readme",
   "bugs": {
-    "url": "https://github.com/defenseunicorns/svelte-pdf/issues"
+    "url": "https://github.com/defenseunicorns/svelte-pdf-viewer/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/defenseunicorns/svelte-pdf.git"
+    "url": "git+https://github.com/defenseunicorns/svelte-pdf-viewer.git"
   },
   "license": "MIT",
   "type": "module",

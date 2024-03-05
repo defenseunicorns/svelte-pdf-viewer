@@ -1,8 +1,4 @@
-# svelte-pdf
-
-[![MadeWithSvelte.com shield](https://madewithsvelte.com/storage/repo-shields/2346-shield.svg)](https://madewithsvelte.com/p/svelte-pdf/shield-link)
-![npm](https://img.shields.io/npm/dw/svelte-pdf?style=flat-square)
-![npm](https://img.shields.io/npm/v/svelte-pdf?style=flat-square)
+# svelte-pdf-viewer-viewer
 
 Simple svelte PDF Viewer component with controls like
 
@@ -12,16 +8,10 @@ Simple svelte PDF Viewer component with controls like
 - Print
 - AutoFlip Page
 
-## Demo
-
-Source code of demo page is included in example directory.
-
-https://svelte-pdf.netlify.com
-
 ## How to install
 
 ```
-npm install svelte-pdf
+npm install @defenseunicorns/svelte-pdf-viewer-viewer
 ```
 
 ## How to use
@@ -30,7 +20,7 @@ npm install svelte-pdf
 
 ```js
 <script>
- import PdfViewer from 'svelte-pdf';
+ import PdfViewer from '@defenseunicorns/svelte-pdf-viewer-viewer';
 </script>
 
 <PdfViewer url='./sample.pdf' />
@@ -41,10 +31,10 @@ npm install svelte-pdf
 
 ```js
 <script>
- import PdfViewer from 'svelte-pdf';
+ import PdfViewer from '@defenseunicorns/svelte-pdf-viewer-viewer';
 </script>
 
-<PdfViewer url='https://raw.githubusercontent.com/vinodnimbalkar/svelte-pdf/369db2f9edbf5ab8c87184193e1404340729bb3a/public/sample.pdf' />
+<PdfViewer url='https://raw.githubusercontent.com/vinodnimbalkar/svelte-pdf-viewer/369db2f9edbf5ab8c87184193e1404340729bb3a/public/sample.pdf' />
 
 ```
 
@@ -52,7 +42,7 @@ npm install svelte-pdf
 
 ```js
 <script>
- import PdfViewer from 'svelte-pdf';
+ import PdfViewer from 'svelte-pdf-viewer';
   const base64 =
     "JVBERi0xLjcKCjEgMCBvYmogICUgZW50cnkgcG9pbnQKPDwKICAvVHlwZSAvQ2F0YWxvZwogIC9QYWdlcyAyIDAgUgo+PgplbmRvYmoKCjIgMCBvYmoKPDwKICAvVHlwZSAvUGFnZXMKICAvTWVkaWFCb3ggWyAwIDAgMjAwIDIwMCBdCiAgL0NvdW50IDEKICAvS2lkcyBbIDMgMCBSIF0KPj4KZW5kb2JqCgozIDAgb2JqCjw8CiAgL1R5cGUgL1BhZ2UKICAvUGFyZW50IDIgMCBSCiAgL1Jlc291cmNlcyA8PAogICAgL0ZvbnQgPDwKICAgICAgL0YxIDQgMCBSIAogICAgPj4KICA+PgogIC9Db250ZW50cyA1IDAgUgo+PgplbmRvYmoKCjQgMCBvYmoKPDwKICAvVHlwZSAvRm9udAogIC9TdWJ0eXBlIC9UeXBlMQogIC9CYXNlRm9udCAvVGltZXMtUm9tYW4KPj4KZW5kb2JqCgo1IDAgb2JqICAlIHBhZ2UgY29udGVudAo8PAogIC9MZW5ndGggNDQKPj4Kc3RyZWFtCkJUCjcwIDUwIFRECi9GMSAxMiBUZgooSGVsbG8sIHdvcmxkISkgVGoKRVQKZW5kc3RyZWFtCmVuZG9iagoKeHJlZgowIDYKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDEwIDAwMDAwIG4gCjAwMDAwMDAwNzkgMDAwMDAgbiAKMDAwMDAwMDE3MyAwMDAwMCBuIAowMDAwMDAwMzAxIDAwMDAwIG4gCjAwMDAwMDAzODAgMDAwMDAgbiAKdHJhaWxlcgo8PAogIC9TaXplIDYKICAvUm9vdCAxIDAgUgo+PgpzdGFydHhyZWYKNDkyCiUlRU9G";
 </script>
@@ -77,10 +67,10 @@ npm install svelte-pdf
 
 ## Examples
 
-To view the examples, clone the **svelte-pdf** repo and install the dependencies:
+To view the examples, clone the **@defenseunicorns/svelte-pdf-viewer-viewer** repo and install the dependencies:
 
 ```bash
-git clone https://github.com/vinodnimbalkar/svelte-pdf.git
+git clone git@github.com:defenseunicorns/svelte-pdf-viewer-viewer.git
 cd example
 npm install
 npm run dev
@@ -98,10 +88,10 @@ Then run the **http://localhost:5000**:
 
       -- [Rich Harris](https://github.com/Rich-Harris/svelte-workshop#using-external-components)
 
-We have to install `svelte-pdf` as part of `devDependencies`
+We have to install `@defenseunicorns/svelte-pdf-viewer-viewer` as part of `devDependencies`
 
 ```bash
-npm install -D svelte-pdf
+npm install -D @defenseunicorns/svelte-pdf-viewer-viewer
 ```
 
 ...this will cause it to get bundled (and therefore compiled) with your app.
@@ -119,7 +109,7 @@ Since out `PdfViewer` component has a dependency on `window` object, we have to 
   let PdfViewer;
 
   onMount(async () => {
-    const module = await import("svelte-pdf");
+    const module = await import("@defenseunicorns/svelte-pdf-viewer-viewer");
     PdfViewer = module.default;
   });
 </script>
@@ -133,4 +123,4 @@ Feel free to open an issue (or even better, send a Pull Request). Contributions 
 
 ## License
 
-**MIT &copy; [Vinod Nimbalkar](https://github.com/vinodnimbalkar/svelte-pdf/blob/master/LICENSE)**
+**[MIT](https://github.com/vinodnimbalkar/svelte-pdf-viewer/blob/master/LICENSE)**

@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "svelte-pdf": "file:../dist/PdfViewer.svelte"
+    "@defenseunicorns/svelte-pdf-viewer": "file:../dist/PdfViewer.svelte"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.1",
