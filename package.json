@@ -1,6 +1,6 @@
 {
   "name": "@defense-unicorns/svelte-pdf-viewer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "svelte-pdf-viewer provides a component for rendering PDF documents using PDF.js",
   "keywords": [
     "pdf",
