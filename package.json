@@ -42,12 +42,12 @@
     "lint": "prettier --check .",
     "package": "svelte-kit package",
     "prepare": "husky",
+    "prepublishOnly": "npm run build",
     "preview": "vite preview",
     "start": "npm run dev",
     "test": "echo 'Add tests'"
   },
   "dependencies": {
-    "material-icons": "^1.13.12",
     "pdfjs-dist": "4.0.379"
   },
   "devDependencies": {
